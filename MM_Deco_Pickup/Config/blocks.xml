@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	
+	<append xpath="/blocks/block[@name='flagWallHungUSA']">
+		<property name="CanPickup" value="true"/>
+		<property name="TakeDelay" value="2"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='calendar2034']">
+		<property name="CanPickup" value="true"/>
+		<property name="TakeDelay" value="2"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='pictureFrame_01a']">
+		<property name="CanPickup" value="true"/>
+		<property name="TakeDelay" value="2"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='pictureCanvas_01a']">
+		<property name="CanPickup" value="true"/>
+		<property name="TakeDelay" value="2"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='pictureFramedMedalsLrg']">
+		<property name="CanPickup" value="true"/>
+		<property name="TakeDelay" value="2"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='paintingBen']">
+		<property name="CanPickup" value="true"/>
+		<property name="TakeDelay" value="2"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='signPosterWantedMissing01']">
+		<property name="CanPickup" value="true"/>
+		<property name="TakeDelay" value="2"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='signPosterMovie2159']">
+		<property name="CanPickup" value="true"/>
+		<property name="TakeDelay" value="2"/>
+	</append>
+
+</config>
