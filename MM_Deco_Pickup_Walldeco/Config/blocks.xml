@@ -44,6 +44,12 @@
 		<property name="TakeDelay" value="2"/>
 	</append>
 
+	<!-- shooting target master -->
+	<append xpath="/blocks/block[@name='shootingRangeTarget']">
+		<property name="CanPickup" value="true"/>
+		<property name="TakeDelay" value="2"/>
+	</append>
+
 	<!-- not exactly wall deco but one block does not justify an extra mod -->
 	<append xpath="/blocks/block[@name='rugBear']">
 		<property name="CanPickup" value="true"/>
