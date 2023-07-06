@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-	
+	<!-- flag master, should work for all flags -->
 	<append xpath="/blocks/block[@name='flagWallHungUSA']">
 		<property name="CanPickup" value="true"/>
 		<property name="TakeDelay" value="2"/>
 	</append>
 
+	<!-- new paintings masters -->
 	<append xpath="/blocks/block[@name='calendar2034']">
 		<property name="CanPickup" value="true"/>
 		<property name="TakeDelay" value="2"/>
@@ -26,6 +27,7 @@
 		<property name="TakeDelay" value="2"/>
 	</append>
 
+	<!-- old painting master - compatible to zdensitys paintings -->
 	<append xpath="/blocks/block[@name='paintingBen']">
 		<property name="CanPickup" value="true"/>
 		<property name="TakeDelay" value="2"/>
@@ -36,7 +38,14 @@
 		<property name="TakeDelay" value="2"/>
 	</append>
 
+	<!-- old poster master -->
 	<append xpath="/blocks/block[@name='signPosterMovie2159']">
+		<property name="CanPickup" value="true"/>
+		<property name="TakeDelay" value="2"/>
+	</append>
+
+	<!-- not exactly wall deco but one block does not justify an extra mod -->
+	<append xpath="/blocks/block[@name='rugBear']">
 		<property name="CanPickup" value="true"/>
 		<property name="TakeDelay" value="2"/>
 	</append>
